@@ -181,6 +181,21 @@ img {
 
 /*Active link*/
 
+.active {
+  position: relative;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 45%;
+  width: 4px;
+  height: 4px;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+}
+
 /*Change color header*/
 
 /*===== HOME =====*/
