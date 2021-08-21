@@ -1,5 +1,7 @@
 # Responsive sneakers web-site
 
+![LOGO](assets/img/LOGO.png)
+
 ---
 
 ## Demo
