@@ -49,8 +49,68 @@
 }
 
 /*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--dark-color);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*===== CLASS CSS ===== */
+
+.section {
+  padding: 5rem 0 2rem;
+}
+
+.section-title {
+  position: relative;
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-2);
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  width: 56px;
+  height: 0.18rem;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--dark-color);
+}
 
 /*===== LAYOUT =====*/
 
