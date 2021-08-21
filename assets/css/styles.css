@@ -204,7 +204,68 @@ img {
 
 /*===== HOME =====*/
 
+.home {
+  background-color: var(--dark-color-lighten);
+  overflow: hidden;
+}
+
+.home__container {
+  height: calc(100vh - --header-height);
+}
+
+.home__sneaker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.home__shape {
+  width: 220px;
+  height: 220px;
+  background-color: var(--dark-color);
+  border-radius: 50%;
+}
+
+.home__img {
+  position: absolute;
+  top: 1.5rem;
+  max-width: initial;
+  width: 275px;
+  transform: var(--rotate-img);
+}
+
+.home__new {
+  display: block;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-1);
+}
+
+.home__title {
+  font-size: var(--bigger-font-size);
+  margin-bottom: var(--mb-05);
+}
+
+.home__description {
+  margin-bottom: var(--mb-3);
+}
+
 /*BUTTONS*/
+
+.button {
+  display: inline;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 1.125rem 2rem;
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transition: translateY(-0.25rem);
+}
 
 /*===== FEATURED =====*/
 
