@@ -1,7 +1,7 @@
 /*===== MENU SHOW =====*/
-const menuShow = (toggleId, navId) => {
+const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId)
-  const toggle = document.getElementById(navId)
+  const nav = document.getElementById(navId)
 
   if (toggle && nav) {
     toggle.addEventListener('click', () => {
@@ -13,7 +13,6 @@ const menuShow = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 /*===== REMOVE MENU =====*/
-
 const navLink = document.querySelectorAll('.nav__link')
 const navMenu = document.getElementById('nav-menu')
 
@@ -26,10 +25,11 @@ navLink.forEach((link) =>
 )
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
-
 window.addEventListener('scroll', scrollActive)
 
-const scrollActive = () => {
+const sections = document.querySelectorAll('.section')
+
+function scrollActive() {
   const scrollY = window.pageYOffset
 
   sections.forEach((current) => {
