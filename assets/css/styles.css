@@ -347,6 +347,45 @@ img {
 
 /*===== COLLECTION =====*/
 
+.collection__container {
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.collection__card {
+  position: relative;
+  display: flex;
+  height: 328px;
+  background-color: var(--dark-color-lighten);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.collection__data {
+  align-self: flex-end;
+}
+
+.collection__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+}
+
+.collection__name {
+  font-size: var(--bigger-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.collection__description {
+  margin-bottom: var(--mb-1);
+}
+
+.collection__card:hover {
+  transform: translateY(0.5rem);
+}
+
 /*===== WOMEN SNEAKERS =====*/
 
 /*===== OFFER =====*/
