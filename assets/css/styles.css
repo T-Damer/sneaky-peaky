@@ -398,6 +398,31 @@ img {
 
 /*===== OFFER =====*/
 
+.offer__container {
+  grid-template-columns: 55% 45%;
+  column-gap: 0;
+  background-color: var(--dark-color-lighten);
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+.offer__data {
+  padding: 4rem 0 4rem 1.5rem;
+}
+
+.offer__title {
+  font-size: var(--bigger-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.offer__description {
+  margin-bottom: var(--mb-15);
+}
+
+.offer__img {
+  width: 153px;
+}
+
 /*===== NEW COLLECTION  =====*/
 
 /*===== NEWSLETTER =====*/
