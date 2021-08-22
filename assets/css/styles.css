@@ -425,6 +425,74 @@ img {
 
 /*===== NEW COLLECTION  =====*/
 
+.new__container {
+  row-gap: 2rem;
+}
+
+.new__mens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dark-color-lighten);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.new__mens-img {
+  width: 276px;
+  margin-bottom: var(--mb-15);
+}
+
+.new__title {
+  font-size: var(--bigger-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.new__price {
+  display: block;
+  margin-bottom: var(--mb-15);
+}
+
+.new__sneaker {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(220px, 1fr)
+  );
+}
+
+.new__sneaker-card {
+  position: relative;
+  padding: 3.5rem 1.5rem;
+  background-color: var(--dark-color-lighten);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.new__sneaker-img {
+  width: 220px;
+}
+
+.new__sneaker-overlay {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(138, 138, 138, 0.3);
+  transition: 0.3s;
+}
+
+.new__sneaker-card:hover .new__sneaker-overlay {
+  bottom: 0;
+}
+
 /*===== NEWSLETTER =====*/
 
 /*===== FOOTER =====*/
