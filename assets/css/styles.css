@@ -124,7 +124,7 @@ img {
   display: grid;
   grid-template-columns: 100%;
   column-gap: 2rem;
-  width: calc(100%-2rem);
+  width: calc(100% - 2rem);
   margin-right: var(--mb-1);
   margin-left: var(--mb-1);
 }
@@ -210,14 +210,16 @@ img {
 }
 
 .home__container {
-  height: calc(100vh - --header-height);
+  height: calc(100vh - var(--header-height));
 }
 
 .home__sneaker {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-self: center;
+  align-items: center;
 }
 
 .home__shape {
