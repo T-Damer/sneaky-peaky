@@ -91,6 +91,21 @@ img {
   height: auto;
 }
 
+/*===== Scrollbar =====*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--text-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--dark-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-color-light);
+}
+
 /*===== CLASS CSS ===== */
 
 .section {
