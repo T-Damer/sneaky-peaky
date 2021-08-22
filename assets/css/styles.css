@@ -330,7 +330,7 @@ img {
 .sneaker__price {
   font-size: var(--font-medium);
   letter-spacing: 0.1rem;
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-bold);
 }
 
 .sneaker__name {
@@ -387,6 +387,14 @@ img {
 }
 
 /*===== WOMEN SNEAKERS =====*/
+
+.women__container {
+  row-gap: 2rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(220px, 1fr)
+  );
+}
 
 /*===== OFFER =====*/
 
