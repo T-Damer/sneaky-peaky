@@ -89,6 +89,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 /*===== Scrollbar =====*/
@@ -232,10 +233,8 @@ img {
 .home__sneaker {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-self: center;
-  align-items: center;
 }
 
 .home__shape {
@@ -403,7 +402,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 320px;
+  width: 220px;
 }
 
 .collection__name {
@@ -665,6 +664,7 @@ img {
   .home__shape {
     width: 376px;
     height: 376px;
+    margin-right: 6rem;
   }
   .home__img {
     width: 470px;
