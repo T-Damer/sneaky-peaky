@@ -153,6 +153,7 @@ img {
     top: var(--header-height);
     left: -100%;
     width: 70%;
+    height: 100%;
     padding: 2rem;
     background-color: var(--white-color);
     transition: 0.5s;
@@ -345,6 +346,21 @@ img {
 
 .sneaker:hover {
   transform: translateY(-0.5rem);
+}
+
+.sneaker__pages {
+  margin-top: var(--mb-3);
+}
+
+.sneaker__page {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--dark-color);
+  border-radius: 0.25rem;
+}
+
+.sneaker__page:hover {
+  background-color: var(--dark-color);
+  color: var(--white-color);
 }
 
 /*===== COLLECTION =====*/
