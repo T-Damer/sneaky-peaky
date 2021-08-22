@@ -6,6 +6,8 @@
 
 ## Demo
 
+![YUsYllfQkP](https://user-images.githubusercontent.com/49658988/130366373-feb6ce57-9d18-4c9c-9131-54b6ee029f4b.gif)
+
 ## How to launch locally?
 
 Simply `git clone https://github.com/T-Damer/sneaky-peaky.git`\
